@@ -1,0 +1,28 @@
+.carousel{
+    
+}
+
+.carousel .slick-list{
+    overflow : visible;
+}
+
+.wrap{
+    margin-top: 10px;
+    
+}
+
+
+
+.wrap img{
+    cursor: pointer;
+    border: 4px solid transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+
+.wrap img:hover{
+    border : 5px solid grey
+}

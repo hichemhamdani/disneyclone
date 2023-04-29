@@ -1,0 +1,30 @@
+.container{
+    margin-top: 5vh;
+}
+
+.content{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    gap: 25px;
+}
+
+.wrap{
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid grey;
+    transition: .3s ease-in;
+}
+
+.wrap:hover{
+    transform: scale(1.05);
+    border: white 5px solid;
+    border-radius: 10px;
+}
+
+.wrap img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

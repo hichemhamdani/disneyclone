@@ -1,0 +1,17 @@
+:root{
+  --primary-color : #090b13;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  color: white;
+  background-color: #040714;
+  overflow-x: hidden;
+}
+
